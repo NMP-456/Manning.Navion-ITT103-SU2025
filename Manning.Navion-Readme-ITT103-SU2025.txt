@@ -1,0 +1,125 @@
+
+Author: Navion Manning
+Date Created: July 20, 2025
+Course: Programming Techniques - ITT103 
+GitHub Public URL to Code: https://github.com/
+ 
+ 
+Purpose of the program:
+This program was designed with the sole purpose of automating processes and storing and retrieval of data for a hospital management system. The software was created and structured using object oriented programming, functions, classes and some exception handling to chart errors as they arise.  
+
+This program was developed to aide clients needs by facilitating ease of access, scalability and increased productivity. The medical staff will be able to process transactions such as billing, scheduling patients and doctors appointments, cancelling said appointments and generating a bill. Thereby increasing efficiency by reducing manual recording of data.
+  
+
+Required modifications:
+This program will require continual software upgrades and servicing to maintain efficiency. 
+
+Assumption:
+User: The program was created with the assumption that there would be multiple users of the hospital management system, including medical doctors. And that the key areas such as patient management, doctors management, billing and scheduling were the areas that once automated will increase productivity. Not much consideration was made on any of the other areas within the medical sector.
+
+
+Limitation:
+
+Storage: The program will need to move over into larger database infrastructure such as cloud computing or other alternate database modeling. To further facilitate scalability.
+
+Processes: The program facilities the processing of four major functions within the health sector, patient management, doctors management, scheduling management and billing management. However more processes could be added to system such as documentation of medication, laboratory, radiological and other procedures, additional this software could also facilitate recording of doctors findings and prescription.  
+User inputs:
+
+Billing: The software accepts two billing processes at a time. Users will have to then reenter menu and restart the process. This can be a limitation to the user. 
+
+How to run:
+The program will display a menu on start up. The user will then manually enter any of the displayed option on the menu bar:
+registration 
+patient profile
+add doctor
+doctor profile
+patient appointment
+doctor schedule
+available doctors
+billing
+cancel appointment 
+
+upon entering any of the above named option the user will then be directed to a display guiding the user on other inputs to enter. 
+
+Registration: The patient registration option will require that the user enter the name, age, gender, name of doctor and the date and time of the desired appointment. Upon completion of these entry the user will see a display of all the information which was added along with a notification on successful registration output. 
+add patient.
+Steps:
+Enter patient registration "no capital letters".
+Enter prompted input
+Enter patient name
+Enter doctors name
+Enter age 
+Enter gender 
+Enter appointment date and time 
+Await notification
+
+patients profile:
+Steps:
+From main menu, enter the words "patients profile"
+System will then display patients profiles that have been saved on the system
+
+
+add doctor
+From main menu, enter add doctor "no capital letters".
+Enter prompted input
+Enter doctors name
+Enter age 
+Enter gender 
+Enter doctors specialty
+Await notification 
+
+
+doctor profile
+From main menu, enter doctors profile "no capital letters".
+System will then display doctors profile on the screen
+
+patient appointment
+From main menu, enter the words "patient registration", "no capital letters".
+Enter prompted input
+Enter patient name
+Enter doctors name
+Enter age 
+Enter gender 
+Enter appointment date and time 
+Await notification prompting you to confirm appointment
+Enter option yes or no
+If no enter appointment id number 
+Await notification
+
+doctor schedule
+from menu, enter doctors schedule "no capital letters".
+Enter prompted input
+Enter doctors name
+Enter age 
+Enter gender 
+Enter appointment date and time 
+Await notification
+
+available doctors
+from menu, enter the words available doctors, "no capital letters".
+Enter prompted input
+Enter doctors name
+Enter date 
+Enter time
+Await notification
+
+
+billing
+From main menu, enter billing, "no capital letters".
+Enter prompted input
+Enter patient name
+Enter date
+Enter procedure done 
+Enter procedure cost
+Await notification prompting you to add more procedures
+If option no await receipt
+If option yes enter additional procedure name
+Enter additional procedure cost
+Await receipt
+
+
+cancel appointment
+from menu, enter, cancel appointment 
+Enter prompted input
+Enter appointment ID number , example (Appointment ID Number: 12345)
+Await notification of success or failure
